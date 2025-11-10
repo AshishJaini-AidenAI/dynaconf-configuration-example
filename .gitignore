@@ -1,10 +1,68 @@
-# Python-generated files
+
+# Byte-compiled / optimized / DLL files
 __pycache__/
-*.py[oc]
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
 build/
 dist/
-wheels/
-*.egg-info
+*.egg-info/
+.installed.cfg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
 
 # Virtual environments
-.venv
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# VS Code
+.vscode/
+
+# Environment files (may contain secrets)
+.env
+.env.*
+
+# OS files
+.DS_Store
+
+# Python version manager
+.python-version
+
+# IDEs
+.idea/
+*.iml
+
+# mypy
+.mypy_cache/
+
+# SQLite DBs
+*.db
+
+# Logs
+*.log
+
+# Uvicorn lockfile
+uv.lock
+
+# Pip wheel metadata
+pip-wheel-metadata/
