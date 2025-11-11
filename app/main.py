@@ -1,4 +1,3 @@
-from dynaconf import Dynaconf
 from fastapi import FastAPI
 from . import models
 from .database import engine

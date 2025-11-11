@@ -1,14 +1,6 @@
 [development]
 app_name = "Book API"
 debug = true
-DATABASE_URL = "postgresql://postgres:Aidenai17405#@localhost:5432/postgres"
-database_url = "postgresql://postgres:Aidenai17405#@localhost:5432/postgres"
-API_KEY = "local-api-key-123"
-api_key = "local-api-key-123"
 
 [production]
 debug = false
-DATABASE_URL = "postgresql://postgres:Aidenai17405#@localhost:5432/postgres"
-database_url = "postgresql://postgres:Aidenai17405#@localhost:5432/postgres"
-API_KEY = "prod-secret-key"
-api_key = "prod-secret-key"
